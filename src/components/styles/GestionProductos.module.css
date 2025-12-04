@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.panel {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.productoItem {
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.productoItem:hover {
+    transform: scale(1.05);
+}
+
+.imagen {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.botonAgregarProducto {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    width: fit-content;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+
+.botonAgregarProducto:hover {
+    background: #d5d5d5;
+}
+
+.formCard {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.formCard h3 {
+    margin-bottom: 10px;
+}
+
+.formCard form {
+    display: grid;
+    gap: 12px;
+}
+
+.formCard button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}

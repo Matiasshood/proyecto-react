@@ -1,0 +1,14 @@
+.detalleContainer {
+    background-color: #172433;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 20px auto;
+    color: rgb(212, 99, 46);
+    text-align: center;
+}
+
+.detalleContainer img {
+    max-width: 100%;
+    border-radius: 10px;
+}

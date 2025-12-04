@@ -1,0 +1,75 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+display: flex;
+  background-color: rgb(23,36,51);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+}
+
+.cardImgContainer {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 0 auto 10px auto;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.cardImg {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.cardTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.cardPrice {
+  font-weight: bold;
+  color: rgb(212, 99, 46);
+  margin-bottom: 10px;
+}
+
+.cardButtons {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.cardButton {
+  padding: 8px 12px;
+  background-color: rgb(212, 99, 46);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.cardButton:hover {
+  transform: scale(1.05);
+}

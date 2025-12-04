@@ -1,0 +1,24 @@
+.navBar ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+}
+.navBar ul li{
+    display: flex;
+    align-items: center;
+}
+.navBar ul li a {
+    display: flex;
+    align-items: center;
+    color: rgb(200, 191, 181);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navBar ul li a:hover{
+    color: rgb(212, 99, 46);
+}
