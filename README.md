@@ -1,16 +1,24 @@
-# React + Vite
+# Vulcane Store - Ecommerce React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tienda online desarrollada en **React**. Permite a los usuarios ver productos, agregarlos al carrito y enviar mensajes de contacto. Los administradores pueden gestionar los productos (crear, editar y eliminar).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías
 
-## React Compiler
+- React
+- CSS Modules
+- React Router
+- Context API
+- MockAPI
+- Deploy en Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Ver catálogo de productos.
+- Ver detalles de cada producto.
+- Agregar productos al carrito.
+- Formulario de contacto.
+- Panel de administración con login (`admin` / `1234`) para gestionar productos.
